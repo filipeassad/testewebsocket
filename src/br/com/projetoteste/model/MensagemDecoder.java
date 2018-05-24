@@ -34,7 +34,7 @@ public class MensagemDecoder implements Decoder.Text<Mensagem>{
 
 	@Override
 	public boolean willDecode(String arg0) {
-		return false;
+		return true	;
 	}
 
 }
